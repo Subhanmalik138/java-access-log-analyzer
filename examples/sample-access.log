@@ -1,0 +1,12 @@
+203.0.113.10 - - [26/Nov/2026:09:58:11 +0500] "GET /index.html HTTP/1.1" 200 4312 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.042
+203.0.113.10 - - [26/Nov/2026:09:58:14 +0500] "GET /style.css HTTP/1.1" 200 1820 "https://example.com/index.html" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.011
+203.0.113.25 - - [26/Nov/2026:10:02:40 +0500] "GET /products?page=2 HTTP/1.1" 200 9811 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 0.231
+203.0.113.25 - - [26/Nov/2026:10:03:02 +0500] "POST /api/cart HTTP/1.1" 201 128 "https://example.com/products?page=2" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)" 0.315
+66.249.66.1 - - [26/Nov/2026:10:05:19 +0500] "GET /robots.txt HTTP/1.1" 200 96 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 0.008
+66.249.66.1 - - [26/Nov/2026:10:05:21 +0500] "GET /sitemap.xml HTTP/1.1" 200 2048 "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" 0.019
+198.51.100.7 - - [26/Nov/2026:10:07:55 +0500] "GET /old-page HTTP/1.1" 301 0 "-" "curl/8.0" 0.004
+198.51.100.7 - - [26/Nov/2026:10:08:01 +0500] "GET /admin HTTP/1.1" 403 512 "-" "curl/8.0" 0.006
+203.0.113.42 - - [26/Nov/2026:10:11:33 +0500] "GET /does-not-exist HTTP/1.1" 404 233 "-" "Mozilla/5.0 (X11; Linux x86_64)" 0.027
+203.0.113.42 - - [26/Nov/2026:10:12:47 +0500] "GET /checkout HTTP/1.1" 500 1024 "https://example.com/cart" "Mozilla/5.0 (X11; Linux x86_64)" 1.482
+203.0.113.10 - - [26/Nov/2026:10:15:09 +0500] "GET /index.html HTTP/1.1" 200 4312 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64)" 0.038
+203.0.113.99 - - [26/Nov/2026:23:41:00 +0500] "GET /api/slow-report HTTP/1.1" 200 65536 "-" "Mozilla/5.0" 2.870
